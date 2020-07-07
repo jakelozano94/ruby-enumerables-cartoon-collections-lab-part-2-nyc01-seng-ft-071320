@@ -25,7 +25,7 @@ def find_valid_calls(planeteer_calls)
   index = 0
   planeteer_calls.each do |element|
   if element == valid_calls[index]
-    return TRUE
+    return element
   else
     index += 1
 end
